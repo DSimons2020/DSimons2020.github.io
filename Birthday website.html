@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<style>
+body {
+  margin: 20px auto;
+  font-family: 'Lato';
+  font-weight: 300;
+  width: 1400px;
+  text-align: center;
+ }
+
+button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 199px;
+  border-radius: 8px;
+  font-family: 'Lato';
+  margin: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: orange;
+}	
+</style>
+<meta charset="utf-8">
+<title>Sergi Birthday Website</title>
+</head>
+
+<body>
+<h1>Happy Birthday Sergi from everyone at <img src="Assets/investin logo.png" width="56.5" height="34.5" alt="InvestIN Logo"> </h1>
+<p>Click on the name below the picture to see your personalised birthday message</p>
+<p> <img src="Assets/Hitesh200x200.jpg" width="200" height="200" alt="Hitesh"> 
+	<img id="img" src="Assets/Sham.jpeg" width="200" height="199" alt="Shameer">  
+	<img src="Assets/sophie.jpg" width="200" height="200" alt="Sophie"> 
+	<img src="Assets/Daan.jpeg" width="200" height="200" alt="Dan"> 
+	<img src="Assets/ellie200x200.jpg" width="200" height="200" alt="Ellie"> </p>
+	
+
+<p><button class="Hitesh">Hitesh</button> <button class="Shameer">Shameer</button> <button class="Sophie">Sophie</button><button class="Dan">Dan</button><button class="Ellie">Ellie</button> </p>
+	
+<p><img src="Assets/Nick200x200.jpg" width="200" height="200" alt="Nick">
+	<img src="Assets/Ayesha.jpeg" width="200" height="200" alt="Ayesha"> 
+	<img src="Assets/elle.jpeg" width="200" height="200" alt="Elle"> 
+	<img src="Assets/rosiee.jpeg" width="200" height="198" alt="Rosie"> 
+	<img src="Assets/Rob200x200.jpg" width="200" height="200" alt="Rob"> </p>
+	
+	
+
+<p><button class="Nick">Nick</button><button class="Ayesha">Ayesha</button> <button class="Elle">Elle</button> <button class="Rosie">Rosie</button> <button class="Rob">Rob</button> </p>
+	
+<p><img src="Assets/Michaela200x200.jpg" width="200" height="200" alt="Michaela">
+	<img src="Assets/Omar200x200.jpg" width="200" height="200" alt="Omar">
+	<img src="Assets/Cerys.jpg" width="200" height="200" alt="Cerys"> 
+	<img src="Assets/Katie200x200.jpg" width="200" height="200" alt="Katie"> 
+	<img src="Assets/oonaghhh.jpeg" width="200" height="200" alt="Oonagh"> </p>
+	
+	
+<p><button class="Michaela">Michaela</button><button class="Omar">Omar</button><button class="Cerys">Cerys</button> <button class="Katie">Katie</button> <button class="Oonagh">Oonagh</button> </p>
+	
+<p><img src="Assets/karina.jpeg" width="200" height="200" alt="Karina"> 
+	<img src="Assets/Caitlin200x200.jpg" width="200" height="200" alt="Caitlin"> 
+	<img src="Assets/Kai200x200.jpg" width="200" height="200" alt="Kai">
+	<img src="Assets/Curtis200x200.jpg" width="200" height="200" alt="Curtis"> 
+	<img src="Assets/willoww.jpeg" width="200" height="200" alt="Willow"> 
+	
+	
+<p><button class="Karina">Karina</button> <button class="Caitlin">Caitlin</button> <button class="Kai">Kai</button><button class="Curtis">Curtis</button><button class="Willow">Willow</button></p>
+		
+	<p><img src="Assets/Aidan200x200.jpg" width="200" height="200" alt="Aidan"> 
+	<img src="Assets/Emily200x200.jpg" width="200" height="200" alt="Emily"> 
+	<img src="Assets/Kirsten200x200.jpg" width="200" height="200" alt="Kirsten"> 
+	<img src="Assets/Amy200x200.jpg" width="200" height="200" alt="Amy">
+	<img src="Assets/Anna200x200.jpg" width="200" height="200" alt="Anna"> </p>
+	
+	
+<p><button class="Aidan">Aidan</button><button class="Emily">Emily</button><button class="Kirsten">Kirsten</button> <button class="Amy">Amy</button><button class="Anna">Anna</button></p>
+	
+<p><img src="Assets/miranda.jpg" width="200" height="200" alt="Miranda"> 
+	<img src="Assets/Chloe200x200.jpg" width="200" height="200" alt="Chloe"> 
+<img src="Assets/emmaa.jpeg" width="200" height="200" alt="Emma"></p>	
+
+<p><button class="Miranda">Miranda</button><button class="Chloe">Chloe</button><button class="Emma">Emma</button>
+	</p>	
+	
+</body>
+</html>
+
+<script>
+	
+window.addEventListener('load', function() {
+    console.log('All assets loaded')
+});
+	
+	document.querySelector(".Hitesh").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Mate!',
+  'Have a great one!',
+);
+});
+
+	document.querySelector(".Shameer").addEventListener('click', function()
+{swal(
+  'Happy Birthday!',
+  'Have a great day!',
+);
+});
+
+		document.querySelector(".Sophie").addEventListener('click', function()
+{
+ swal(
+  'Feliz cumpleaños, Sergi',
+  'I hope you have a magical birthday filled with food, booze and friends despite the lockdown – Sophie',
+);
+});
+
+	document.querySelector(".Dan").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Hope you have a fantastic day and a great year ahead! I hope you appreciate all the time I put into learning to use this JavaScript resource. I can proudly say I wrote most of this code myself after I ditched the original plan we worked on together! ',
+);
+});
+
+	document.querySelector(".Ellie").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope this year, your girlfriend treats YOU to a super date to celebrate! Ellie x',
+);
+});
+
+	document.querySelector(".Nick").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Hope you have an amazing bed-bug free day and enjoy yourself (as much as you can in lockdown haha)! ',
+);
+});
+
+	document.querySelector(".Ayesha").addEventListener('click', function()
+{
+ swal(
+  'Dear Sergi',
+  'Happy Birthday!! I’m so glad we get to work together especially with you being such a calming presence! I hope you don’t actually think you’re getting too old as there is lots of salsa classes left for you to teach InvestIN. Hope you have a fabulous day. Ayesha xx',
+);
+});
+
+	document.querySelector(".Elle").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope you have a lovely day, I cant wait to Salsa dance and celebrate when this is all over! Love Elle x',
+);
+});
+
+	document.querySelector(".Rosie").addEventListener('click', function()
+{
+ swal(
+  'Dear Sergi, Wishing you a very Happy Birthday!',
+  'Thanks for all the philosophy talks and Salsa dancing! I look forward to celebrating with you after our programmes 😊 Rosie xx',
+);
+});
+
+	document.querySelector(".Rob").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope that you’ve had a lovely day – starting with a wink and ending with a rousing motivational speech in the mirror!',
+);
+});
+
+	document.querySelector(".Michaela").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope the day is filled with all the goodness and positivity that you bring to our PM huddles and team-wide meetings – you deserve it! Michaela xxx',
+);
+});
+
+	document.querySelector(".Omar").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!!!',
+  'Cant believe Im technically your mentor, youve come such a long way in such a short time!! Dont think I can really claim the title any more haha. Been such a joy working with you, and cant wait to see you in the office again! - Omar',
+);
+});
+
+	document.querySelector(".Cerys").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Hope you have a wonderful birthday as extravagant as the superdate – Cerys',
+);
+});
+
+	document.querySelector(".Katie").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope you have a wonderful day! Katie xxx',
+);
+});
+
+	document.querySelector(".Oonagh").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope that you have a great day 😊 Oonagh',
+);
+});
+
+	document.querySelector(".Karina").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Great wisdom comes not from reading but from the facts you make us drink to in shotsnado...hope that you have a lovely birthday and look forward to more sarcasm in the office soon. K xx',
+);
+});
+
+	document.querySelector(".Caitlin").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'The king of the ‘super date’ and the only reason I wink at myself in the mirror every morning. I hope you spend the day dancing to the beauty that is code. Caitlin x ',
+);
+});
+
+	document.querySelector(".Kai").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Have a wonderful day, and I hope that you get everything you deserve for the big day - namely enough drink to last Shotsnado 3.0 and a non-circular bed. Kai x',
+);
+});
+
+	document.querySelector(".Curtis").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Hope you are having a safe lockdown and your internet is going strong, see you soon and have a great day ',
+);
+});
+
+	document.querySelector(".Willow").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'I hope you have a lovely, cake-filled day. Hopefully we can celebrate properly when we are all reunited in the Office and I’ll finally be able to see some of the famous Salsa dancing!! Love, Willow xx',
+);
+});
+
+	document.querySelector(".Aidan").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'can’t wait to share a bottle of wine with you again!',
+);
+});
+
+	document.querySelector(".Emily").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Mate!',
+  'Have a great day!',
+);
+});
+
+	document.querySelector(".Kirsten").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Mate!',
+  'Have a great day!',
+);
+});
+
+	document.querySelector(".Amy").addEventListener('click', function()
+{
+ swal(
+  'Dear Sergi,',
+  'Happy Birthday to the best Informed interviewer and computer scientist around. Have a fantastic day! 😊 – Amy',
+);
+});
+
+	document.querySelector(".Anna").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday!!',
+  'I hope you have a lovely day & get the chance to celebrate properly very soon! Anna 😊',
+);
+});
+
+	document.querySelector(".Miranda").addEventListener('click', function()
+{
+ swal(
+  '<title> Happy Birthday Sergi! </title>',
+  '<body> Happy birthday, Sergi! Hope you have a great day. Love Miranda 😊 </body> </* I put it in code just for you>',
+);
+});
+
+	document.querySelector(".Chloe").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergo!',
+  'I hope you have a wonderful day :)',
+);
+});
+
+	document.querySelector(".Emma").addEventListener('click', function()
+{
+ swal(
+  'Happy Birthday Sergi!',
+  'Hope you have a wonderful day full of presents and cake - looking forward to (hopefully) celebrating with you on the roof soon! Emma xx',
+);
+});
+
+
+</script>
